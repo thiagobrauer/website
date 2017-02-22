@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('home');
 });
+
+Route::get('/nova', function () {
+    return view('nova-home');
+});
