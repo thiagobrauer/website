@@ -1,0 +1,642 @@
+@font-face {
+    font-family: MyryadPro;
+    src: url(../fonts/myriad-pro/MYRIADPRO-BOLD.OTF);
+}
+
+:root{
+    --blue:#2481AF;
+}
+
+body{
+    
+}
+
+/*HEADER*/
+header{
+    margin: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.col-header{
+    text-align: center;
+}
+
+.div-media-header{
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+header .fa{
+    color: var(--blue);
+
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+        transition: all .2s ease;
+}
+
+header .fa:hover{
+    -webkit-transform:scale(1.1); /* Safari and Chrome */
+    -moz-transform:scale(1.1); /* Firefox */
+    -ms-transform:scale(1.1); /* IE 9 */
+    -o-transform:scale(1.1); /* Opera */
+     transform:scale(1.1);
+}
+
+
+.carousel{
+    margin-bottom: 20px;
+}
+
+
+.header-info h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.header-info p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: ;
+    font-size: 16px;
+}
+
+.header-info .header-fone{
+    color: #AACD11; 
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.menu-item{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    letter-spacing: .05em;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+
+/*CENTER NAVBAR*/
+.navbar .navbar-nav {
+    
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+
+    
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+/**/
+
+.navbar{
+    margin: 0;
+    border-radius: 0px;
+}
+
+.navbar-header button{
+    border-color: white;
+}
+
+.navbar button span{
+    background: white;
+}
+
+.navbar-collapse{
+    background: var(--blue);
+}
+
+.navbar {
+    background: var(--blue);
+    text-align: center;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+    /*height: 350px;*/
+}
+
+footer{
+    color: white;
+    text-align: center;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.page-content-wrapper{
+    width: 100%;
+    height: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.col-section{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+/*SECTION TITLES*/
+/*.section-title p{
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}*/
+
+.section-title{
+    border-radius: 2px;
+    background: var(--blue); 
+    height: 40px; 
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    letter-spacing: .05em;
+
+    padding-top: 5px;
+    margin-bottom: 20px;
+
+}
+
+.section-title img{
+    width: 15px; 
+    height: 15px; 
+    margin-right: 2px; 
+    margin-bottom: 2px;
+}
+
+.section-servicos .section-title, .section-conheca .section-title{
+    /*background: #91AF0F;*/
+    background: var(--blue); 
+    color: white;
+}
+
+ .section-publicacoes .section-title, .section-noticia .section-title{
+    /*background: #91AF0F;*/
+    background: var(--blue); 
+    color: white;
+}
+
+/*NOTICIAS - SHORTCUTS*/
+.col-img-noticia{
+    padding: 0;
+}
+
+.div-noticia{
+    margin-bottom: 20px;
+}
+
+.div-noticia img{
+    border-radius: 2px;
+}
+
+.div-noticia p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.div-noticia span{
+    font-style: italic;
+    font-size: 12px;
+    color: #333333;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.header-noticia{
+    font-weight: bold;
+    line-height: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    color: #333333;
+}
+
+
+.div-shortcut{
+    border-radius: 2px;
+    border: 1px solid #BCE8F1;
+    margin-bottom: 20px;
+    /*background: #FFD600; */
+    height: 145px; 
+    padding-top: 30px;
+
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: .05em;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 18px;
+    background: #D9EDF7; 
+    color: #1E6B91;
+    /*color: #144962;*/
+}
+
+.div-shortcut p{
+    margin-top: 20px;
+}
+
+.div-shortcut div{
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+        transition: all .2s ease;
+}
+
+.div-shortcut div:hover{
+    -webkit-transform:scale(1.1); /* Safari and Chrome */
+    -moz-transform:scale(1.1); /* Firefox */
+    -ms-transform:scale(1.1); /* IE 9 */
+    -o-transform:scale(1.1); /* Opera */
+     transform:scale(1.1);
+}
+
+/*PUBLICACOES - ACESSO RAPIDO*/
+
+.section-servicos div button{
+    /*background: #CCE758;
+    color: #576226;*/
+    border-radius: 2px;
+    border: 1px solid #BCE8F1;
+    background: #D9EDF7; 
+    color: #1E6B91;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%; 
+    height: 100%;
+
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+        transition: all .2s ease;
+}
+
+.section-servicos div button:hover{
+    border: 1px solid #BCE8F1;
+    background: #1E6B91; 
+    color: #D9EDF7;
+}
+
+.section-servicos div button i{
+    margin-right: 10px;
+}
+
+.div-btn-service{
+    margin-bottom: 20px;
+}
+
+.div-publicacao .publicacao-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;    
+    font-size: 20px;        
+}
+
+.div-publicacao .publicacao-subtitle{
+    font-family: 'Roboto', sans-serif;
+    font-weight: ;    
+    font-size: 18px;    
+    color: #333333;    
+}
+
+/*CONHECA*/
+
+
+.col-imgs-conheca{
+    padding: 0; 
+    margin: 0; 
+    margin-bottom: 20px;
+}
+
+.col-imgs-conheca img{
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+        transition: all 1s ease;
+
+    border-radius: 2px;
+}
+
+.col-imgs-conheca img:hover{
+    -webkit-transform:scale(1.1); /* Safari and Chrome */
+    -moz-transform:scale(1.1); /* Firefox */
+    -ms-transform:scale(1.1); /* IE 9 */
+    -o-transform:scale(1.1); /* Opera */
+     transform:scale(1.1);
+}
+
+.grow{
+    overflow: hidden;
+}
+
+.col-img-conheca-lg{
+    border-radius: 2px;
+    padding: 0; 
+    margin: 0;
+
+}
+
+.col-wrapper-conheca-sm{
+    padding: 0; 
+    margin: 0; 
+    padding-left: 20px;
+}
+
+.col-img-conheca-sm-top-left{
+    padding: 0; 
+    padding-right: 10px; 
+
+}
+
+.col-img-conheca-sm-top-right{
+    padding: 0; 
+    padding-left: 10px;
+
+}
+
+.col-img-conheca-sm-bottom-left{
+    padding: 0; 
+    padding-right: 10px; 
+    padding-top: 20px;
+
+}
+
+.col-img-conheca-sm-bottom-right{
+    padding: 0; 
+    padding-left: 10px; 
+    padding-top: 20px;
+
+}
+
+.col-img-conheca-lg .carousel-caption{    
+    text-align: left;
+    border: 0px solid black;
+    left: 2.5%;
+    right: 10%;
+    bottom: 2%;
+    padding: 0;
+}
+
+.col-wrapper-conheca-sm .carousel-caption{    
+    text-align: left;
+    border: 0px solid black;
+    left: 5%;
+    right: 5%;
+    bottom: 6%;
+    padding: 0;
+}
+
+.col-img-conheca-lg .carousel-caption .caption-title{
+    
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.col-img-conheca-lg .carousel-caption .caption-subtitle{
+    
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    /*font-weight: bold;*/
+    font-size: 18px;
+}
+
+.col-wrapper-conheca-sm .carousel-caption .caption-title{
+    
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.col-wrapper-conheca-sm .carousel-caption .caption-subtitle{
+    
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    /*font-weight: bold;*/
+    font-size: 12px;
+}
+
+
+
+/**/
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+/**/
+
+/*FOOTER*/
+footer{
+    background: var(--blue);
+    padding: 20px;
+    text-align: left;
+}
+
+footer h4{
+    font-family: 'Roboto', 'sans-serif';
+}
+
+footer ul li a{
+    font-family: 'Open Sans', 'sans-serif';
+    color: white !important;
+    
+}
+
+footer ul li a img{
+    width: 10px; 
+    height: 10px; 
+    margin-right: 3px; 
+    margin-bottom: 3px;
+}
+
+.col-links{
+    padding-left: 130px;
+}
+
+.logo-footer{
+    margin-bottom: 20px;
+}
+
+/*MEDIA QUERIES*/
+/*LG*/
+@media screen and (min-width: 1200px) {
+    .logo-header-side{
+        display: block;
+    }
+
+    .logo-header-bottom{
+        display: none;
+    }
+    
+}
+
+/*MD*/
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .logo-header-side{
+        margin-top: 10%;
+        display: block;
+    }
+
+    .logo-header-bottom{
+        display: none;
+    }
+
+    .div-media-header{
+        margin-top: 20px;
+    }
+
+    .col-shortcuts{
+        margin-top: 20px;
+    }
+    .div-shortcut{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .logo-footer{
+        margin: 0 auto;
+    } 
+
+    .logo-header{
+        margin-top: 20px;
+    }
+
+    
+}
+
+/*SM*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .logo-header-side{
+        display: none;
+    }
+
+    .logo-header-bottom{
+        margin-left: 20%;
+        height: 200px;
+        width: 100px;
+        display: block;
+    }
+
+    .div-media-header{
+        margin-top: 30px;
+    }
+
+    .menu-item{
+        margin-left: 0px;
+        margin-right: 0px; 
+    }
+
+    .col-shortcuts{
+        margin-top: 20px;
+    }
+    .div-shortcut{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .logo-footer{
+        margin: 0 auto;
+    } 
+
+    .col-wrapper-conheca-sm{
+        margin-top: 20px;
+        padding-left: 0;
+    }
+
+    .col-links{
+        text-align: center;
+    }
+
+
+}
+
+/*XS*/
+@media screen and (max-width: 767px) {
+    .logo-header-side{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .logo-header-bottom{
+        margin-left: 20px;
+        height: 20%;
+        width: 20%;
+        display: none;
+    }
+    
+    header{
+        margin-bottom: 0;
+    }
+    .col-header{
+        margin-bottom: 20px;
+    }   
+    .div-media-header{
+        margin-top: 0px;
+    }
+
+    .col-shortcuts{
+        margin-top: 20px;
+    }
+    .div-shortcut{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .div-noticia-content{
+        padding-left: 0;
+        margin-top: 10px; 
+    }
+
+    .div-noticia img{
+        margin: 0 auto;
+    }
+
+
+    .logo-footer{
+        margin: 0 auto;
+    }
+
+    .col-wrapper-conheca-sm{
+        padding: 0;
+    }
+
+    .col-img-conheca-sm-top-left, .col-img-conheca-sm-top-right, .col-img-conheca-sm-bottom-left, .col-img-conheca-sm-bottom-right{
+        padding: 0;
+        margin-top: 20px;
+    }
+
+    .col-img-conheca-lg .carousel-caption .caption-title, .col-wrapper-conheca-sm .carousel-caption .caption-title{
+        font-size: 32px;
+    }
+
+    .col-img-conheca-lg .carousel-caption .caption-subtitle, .col-wrapper-conheca-sm .carousel-caption .caption-subtitle{
+        font-size: 18px;
+    }
+
+    .col-links{
+        text-align: center;
+        padding-left: 0;
+    }
+
+}
+
+
+
+
+
