@@ -5,9 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Prefeitura Municipal de Lagoa da Confusão</title>
 
-        <link rel = 'stylesheet' type = 'text/css' href = "css/style.min.css">    
+        <link rel = 'stylesheet' type = 'text/css' href = "{{asset('css/style.min.css')}}">    
         <link rel = 'stylesheet' type = 'text/css' href = "css/custom.css"> 
         <link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -19,16 +19,18 @@
             <div class="row " style="">
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col-header" >
                     <a href="" class="">
-                        <img class="img-responsive logo-header-side" src="img/logo-side-azul.png" alt="logotipo-lagoa" width="280" height="160">
-                        <img class="img-responsive logo-header-bottom" src="img/logo-bottom-azul.png" alt="logotipo-lagoa" width="280" height="160">
+                        <img class="img-responsive logo-header-side" src="img/logos/logo-side-azul.png" alt="logotipo-lagoa" width="280" height="160">
+                        <img class="img-responsive logo-header-bottom" src="img/logos/logo-bottom-azul.png" alt="logotipo-lagoa" width="280" height="160">
                     </a>
                 </div> 
                 <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 col-header header-info">
                     <!--<h4>ATENDIMENTO</h4>-->
-                    <p class="header-fone">(63) 3385-1120</p>
-                    <p>Atendimento: 07h às 13h Horas Segunda a Sexta</p>
-                    <p>Prefeitura Municipal de Talismã - Av Rio Formoso, 127 - qd-5 lt-5 - Setor Central, Talismã, TO CEP: 77483-000</p>
-                    
+                    <p class="header-fone">(63) 3364-1623</p>
+                    <p><b>Atendimento: 07h às 13h Horas, Segunda a Sexta</b></p>
+                    <p>Prefeitura Municipal de Lagoa da Confusão</p>
+                    <p>Rua Firmino Lacerda, 257 - Quadra 53, Lote 07, Centro</p>
+                    <p>Lagoa da Confusão, Tocantins</p>
+                    <p>CEP: 77493-000</p>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 col-header" >                        
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 div-media-header" >                        
@@ -70,13 +72,59 @@
                 </div>
                 <div id="navbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav" >
-                    <li class="active" ><a class="menu-item" href="#">INÍCIO</a></li>
-                    <li><a href="#about" class="menu-item">A PREFEITURA</a></li>
-                    <li><a href="#contact" class="menu-item">SERVIÇOS</a></li>
-                    <li><a href="#contact" class="menu-item">PROJETOS E AÇÕES</a></li>
-                    <li><a href="#contact" class="menu-item">NOTÍCIAS</a></li>
-                    <li><a href="#contact" class="menu-item">IMPRENSA</a></li>
-                    <li><a href="#contact" class="menu-item">OUVIDORIA</a></li>
+                    <li class="active menu-item" ><a class="" href="#">INÍCIO</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li class="dropdown menu-item">
+                        <a href="#" class="dropdown-toggle menu-item" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            ADMINISTRAÇÃO 
+                            <span class="glyphicon glyphicon-chevron-down"></span>
+                        </a>
+                        <ul class="dropdown-menu" style="background: #D9EDF7;">
+                            <li><a href="#">Prefeito</a></li>
+                            <li><a href="#">Vice Prefeito</a></li>
+                            <li><a href="#">Agenda</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown menu-item">
+                        <a href="#" class="dropdown-toggle menu-item" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            SECRETARIAS 
+                            <span class="glyphicon glyphicon-chevron-down"></span>
+                        </a>
+                        <ul class="dropdown-menu" style="background: #D9EDF7;">
+                            <li><a href="#">Educação</a></li>
+                            <li><a href="#">Finanças</a></li>
+                            <li><a href="#">Gabinete</a></li>
+                            <li><a href="#">Infraestrutura</a></li>
+                            <li><a href="#">RH</a></li>
+                            <li><a href="#">Saúde</a></li>
+                            <li><a href="#">Serviço Social</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown menu-item">
+                        <a href="#" class="dropdown-toggle menu-item" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            SERVIÇOS 
+                            <span class="glyphicon glyphicon-chevron-down"></span>
+                        </a>
+                        <ul class="dropdown-menu" style="background: #D9EDF7;">
+                            <li><a href="#">Nota Fiscal Eletrônica</a></li>
+                            <li><a href="#">Transparência</a></li>
+                            <li><a href="#">Outros serviços</a></li>
+                        </ul>
+                    </li>
+                    <!--<li class="menu-item"><a href="#contact" >PROJETOS E AÇÕES</a></li>-->
+                    <li class="menu-item"><a href="#contact" >NOTÍCIAS</a></li>
+                    <li class="menu-item"><a href="#contact" >IMPRENSA</a></li>
+                    <li class="dropdown menu-item">
+                        <a href="#" class="dropdown-toggle menu-item" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            FALE CONOSCO 
+                            <span class="glyphicon glyphicon-chevron-down"></span>
+                        </a>
+                        <ul class="dropdown-menu" style="background: #D9EDF7;">
+                            <li><a href="#">Ouvidoria</a></li>
+                            <li><a href="#">Contato</a></li>
+                        </ul>
+                    </li>
+                    
                 </ul>
                 </div>           
         </nav>
@@ -87,31 +135,43 @@
                 <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                 <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                 <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="5"></li>
             </ol>
 
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img src="img/slide1.jpg" alt="...">
+                    <!--<div style="overflow: hidden; width: 100%; height: 480px; background: black" >-->
+                        <img src="img/slides/slide5.jpg" alt="..." style="width: 100%;">
+                    <!--</div>-->
                     <div class="carousel-caption">
-                        <h3>First slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <p class="slide-caption-title">Lagoa da Confusão</p>
+                        <p class="slide-caption-subtitle">Subtitulo subtilo subtitulo subtitulo subtitulo subtitulo</p>
                     </div>
                 </div>
-                <div class="item">
-                    <img src="img/slide2.jpg" alt="...">
+                <div class="item ">
+                    <!--<div style="overflow: hidden; width: 100%; height: 480px; background: black" >-->
+                        <img src="img/slides/slide7.jpg" alt="..." style="margin: ; width: 100%; height: %;">
+                    <!--</div>-->
+                    
                     <div class="carousel-caption">
-                        <h3>First slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <p class="slide-caption-title">Lagoa da Confusão</p>
+                        <p class="slide-caption-subtitle">Subtitulo subtilo subtitulo subtitulo subtitulo subtitulo</p>
                     </div>
                 </div>
-                <div class="item">
-                    <img src="img/slide3.jpg" alt="...">
+                <div class="item ">
+                    <!--<div style="overflow: hidden; width: 100%; height: 480px; background: black" >-->
+                        <img src="img/slides/slide8.jpg" alt="..." style="margin: ; width: 100%; height: %;">
+                    <!--</div>-->
+                    
                     <div class="carousel-caption">
-                        <h3>First slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <p class="slide-caption-title">Lagoa da Confusão</p>
+                        <p class="slide-caption-subtitle">Subtitulo subtilo subtitulo subtitulo subtitulo subtitulo</p>
                     </div>
                 </div>
+                
             </div>
 
             <!-- Controls -->
@@ -125,6 +185,12 @@
             </a>
         </div>
 
+        <!-- Widget Previs&atilde;o de Tempo CPTEC/INPE -->
+        <!--<iframe allowtransparency="true" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" src="http://www.cptec.inpe.br/widget/widget.php?p=2883&w=h&c=748ccc&f=ffffff" height="200px" width="215px"></iframe><noscript>Previs&atilde;o de <a href="http://www.cptec.inpe.br/cidades/tempo/2883">Lagoa da Confusão/TO</a> oferecido por <a href="http://www.cptec.inpe.br">CPTEC/INPE</a></noscript> Widget Previs&atilde;o de Tempo CPTEC/INPE -->
+        
+        
+        
+        
         <div class="container page-content-wrapper" >
             <div class="row">                
                 <div class="col-lg-10 col-section section-noticia">                    
@@ -137,7 +203,7 @@
                     <div class="col-lg-12 col-md-12 col-sm-12">                        
                         <div class="row div-noticia">
                             <div class="col-lg-3 col-md-3 col-sm-3 col-img-noticia">
-                                <img src="img/slide2.jpg" class="img-responsive" alt="Responsive image">
+                                <img src="img/noticias/noticia1.jpg" class="img-responsive" alt="Responsive image">
                             </div>
                             <div class="col-lg-9 col-md-9 col-sm-9 div-noticia-content">
                                 <a href="" class="header-noticia">Gostaria de enfatizar que a consolidação das estruturas 
@@ -152,7 +218,7 @@
 
                         <div class="row div-noticia">
                             <div class="col-lg-3 col-md-3 col-sm-3 col-img-noticia">
-                                <img src="img/slide2.jpg" class="img-responsive" alt="Responsive image">
+                                <img src="img/noticias/noticia1.jpg" class="img-responsive" alt="Responsive image">
                             </div>
                             <div class="col-lg-9 col-md-9 col-sm-9 div-noticia-content">
                                 <a href="" class="header-noticia">Gostaria de enfatizar que a consolidação das estruturas 
@@ -167,7 +233,7 @@
 
                         <div class="row div-noticia">
                             <div class="col-lg-3 col-md-3 col-sm-3 col-img-noticia">
-                                <img src="img/slide2.jpg" class="img-responsive" alt="Responsive image">
+                                <img src="img/noticias/noticia1.jpg" class="img-responsive" alt="Responsive image">
                             </div>
                             <div class="col-lg-9 col-md-9 col-sm-9 div-noticia-content">
                                 <a href="" class="header-noticia">Gostaria de enfatizar que a consolidação das estruturas 
@@ -182,7 +248,7 @@
 
                         <div class="row div-noticia">
                             <div class="col-lg-3 col-md-3 col-sm-3 col-img-noticia">
-                                <img src="img/slide2.jpg" class="img-responsive" alt="Responsive image">
+                                <img src="img/noticias/noticia1.jpg" class="img-responsive" alt="Responsive image">
                             </div>
                             <div class="col-lg-9 col-md-9 col-sm-9 div-noticia-content">
                                 <a href="" class="header-noticia">Gostaria de enfatizar que a consolidação das estruturas 
@@ -198,8 +264,20 @@
                     </div>                    
                 </div>
 
-                <div class="col-lg-2 col-section">                        
-                    <a href="">
+                <div class="col-lg-2 col-section"> 
+                    <!--<div class="col-lg-12">
+                        <a href="http://www.accuweather.com/pt/br/lagoa-da-confusao/1800490/current-weather/1800490" class="aw-widget-legal">
+                        TESTE
+                        </a>
+                        <div id="awtd1487862196758" class="aw-widget-36hour"  data-locationkey="1800490" data-unit="c" data-language="pt" data-useip="false" data-uid="awtd1487862196758" data-editlocation="false">
+                        </div>
+                        <script type="text/javascript" src="https://oap.accuweather.com/launch.js"></script>
+
+                    </div>    -->
+
+
+
+                    <a href="http://lagoadaconfusao.megasofttransparencia.com.br/transparencia/viagem.xhtml">
                         <div class="col-lg-12 col-md-3 col-sm-3 nopadding" >    
                             <div class="div-shortcut">
                                 <div>
@@ -229,12 +307,13 @@
                             </div>                                                                                                    
                         </div>
                     </a>
-                    <a href="">
-                        <div class="col-lg-12 col-md-3 col-sm-3 nopadding" >    
+                    <a href="https://lagoadaconfusao.megasoftarrecadanet.com.br/lagoadaconfusao/nfe-municipal/login.jsf">
+                        <div class="col-lg-12 col-md-3 col-sm-3 nopadding" >                                
                             <div class="div-shortcut">
-                                <div>
-                                    <i class="fa fa-info fa-3x" aria-hidden="true"></i>
-                                    <p>E-SIC</p>
+                                <div >
+                                    <img class="img-responsive" src="img/logos/nfe.png" alt="" width="80px" height="80px" style="margin: 0 auto">
+                                    <!--<i class="fa fa-info fa-3x" aria-hidden="true"></i>-->
+                                    <p style="margin: 5px;">NF-E</p>
                                 </div>    
                             </div>                                                                                                    
                         </div>
@@ -262,43 +341,41 @@
                                 </p>
                                 <p class="list-group-item-text publicacao-subtitle">Marcilene dos Santos Oliveira</p>
                             </a>
-                            <a href="#" class="list-group-item list-group-item-action">
+                            <a href="doc/ato_040_2017.pdf" class="list-group-item list-group-item-action">
                                 <p class="list-group-item-heading publicacao-title">
                                     <i class="fa fa-book" aria-hidden="true"></i>
                                     Ato nº 040/2017
                                 </p>
                                 <p class="list-group-item-text publicacao-subtitle">Jonathas Nunes de Jesus</p>
                             </a>
-                            <a href="#" class="list-group-item list-group-item-action">
+                            <a href="doc/ato_041_2017.pdf" class="list-group-item list-group-item-action">
                                 <p class="list-group-item-heading publicacao-title">
                                     <i class="fa fa-book" aria-hidden="true"></i>
                                     Ato nº 041/2017
                                 </p>
                                 <p class="list-group-item-text publicacao-subtitle">Dacio N. dos Santos Barbosa</p>
                             </a>
-                            <a href="#" class="list-group-item list-group-item-action">
+                            <a href="doc/ato_042_2017.pdf" class="list-group-item list-group-item-action">
                                 <p class="list-group-item-heading publicacao-title">
                                     <i class="fa fa-book" aria-hidden="true"></i>
                                     Ato nº 042/2017
                                 </p>
                                 <p class="list-group-item-text publicacao-subtitle">Marcelo Damas Teixeira</p>
                             </a>
-                            <a href="#" class="list-group-item list-group-item-action">
+                            <a href="doc/ato_043_2017.pdf" class="list-group-item list-group-item-action">
                                 <p class="list-group-item-heading publicacao-title">
                                     <i class="fa fa-book" aria-hidden="true"></i>
                                     Ato nº 043/2017
                                 </p>
                                 <p class="list-group-item-text publicacao-subtitle">Raysa Lucena Godói</p>
                             </a>
-                            <a href="#" class="list-group-item list-group-item-action">
+                            <a href="doc/ato_044_2017.pdf" class="list-group-item list-group-item-action">
                                 <p class="list-group-item-heading publicacao-title">
                                     <i class="fa fa-book" aria-hidden="true"></i>
                                     Ato nº 044/2017
                                 </p>
                                 <p class="list-group-item-text publicacao-subtitle">Rosenir Souza Cardoso</p>
-                            </a>    
-                            
-                                               
+                            </a>                                                  
                         </div>    
                     </div>                       
                 </div>
@@ -346,8 +423,7 @@
                             <i class="fa fa-briefcase" aria-hidden="true"></i>
                             SERVIÇO6
                         </button>
-                    </div>
-                    
+                    </div>                    
                 </div>
             </div>   
 
@@ -366,12 +442,12 @@
                             <div class="row" style="padding: 0; margin: 0;">
                                 <a href="">    
                                     <div class="grow">
-                                        <img src="img/slide1.jpg" class="img-responsive" alt="Responsive image" width="100%">
+                                        <img src="img/conheca/conheca1.jpg" class="img-responsive" alt="Responsive image" width="100%">
                                     </div>
                                 
                                     <div class="carousel-caption">                                    
-                                        <span class="caption-title">First slide label</span><br>
-                                        <span class="caption-subtitle">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</span>
+                                        <span class="caption-title">Lagoa da Confusão</span><br>
+                                        <span class="caption-subtitle">Subtitulo subtilo subtitulo subtitulo subtitulo subtitulo</span>
                                     </div>
                                 </a>   
                             </div>
@@ -383,23 +459,23 @@
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-img-conheca-sm-top-left"  style="">
                                     <a href="">        
                                         <div class="grow">
-                                            <img src="img/slide1.jpg" class="img-responsive" alt="Responsive image" width="100%">
+                                            <img src="img/conheca/conheca2.jpg" class="img-responsive" alt="Responsive image" width="100%">
                                         </div>                                    
                                         <div class="carousel-caption">                                    
-                                            <span class="caption-title">First slide label</span><br>
-                                            <!--<span class="caption-subtitle">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</span>-->
+                                            <span class="caption-title">Lagoa da Confusão</span><br>
+                                            <!--<span class="caption-subtitle">Subtitulo subtilo subtitulo subtitulo subtitulo subtitulo</span>-->
                                         </div>
                                     </a>  
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-img-conheca-sm-top-right"  style=" ">
                                     <a href="">        
                                         <div class="grow">
-                                            <img src="img/slide1.jpg" class="img-responsive" alt="Responsive image" width="100%">
+                                            <img src="img/conheca/conheca3.jpg" class="img-responsive" alt="Responsive image" width="100%">
                                         </div>
                                     
                                         <div class="carousel-caption">                                    
-                                            <span class="caption-title">First slide label</span><br>
-                                            <!--<span class="caption-subtitle">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</span>-->
+                                            <span class="caption-title">Lagoa da Confusão</span><br>
+                                            <!--<span class="caption-subtitle">Subtitulo subtilo subtitulo subtitulo subtitulo subtitulo</span>-->
                                         </div>
                                     </a>  
                                 </div>        
@@ -408,24 +484,24 @@
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-img-conheca-sm-bottom-left" style="">
                                     <a href="">        
                                         <div class="grow">
-                                            <img src="img/slide1.jpg" class="img-responsive" alt="Responsive image" width="100%">
+                                            <img src="img/conheca/conheca4.jpg" class="img-responsive" alt="Responsive image" width="100%">
                                         </div>
                                     
                                         <div class="carousel-caption">                                    
-                                            <span class="caption-title">First slide label</span><br>
-                                            <!--<span class="caption-subtitle">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</span>-->
+                                            <span class="caption-title">Lagoa da Confusão</span><br>
+                                            <!--<span class="caption-subtitle">Subtitulo subtilo subtitulo subtitulo subtitulo subtitulo</span>-->
                                         </div>
                                     </a>  
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-img-conheca-sm-bottom-right"  style="">
                                     <a href="">        
                                         <div class="grow">
-                                            <img src="img/slide1.jpg" class="img-responsive" alt="Responsive image" width="100%">
+                                            <img src="img/conheca/conheca5.jpg" class="img-responsive" alt="Responsive image" width="100%">
                                         </div>
                                     
                                         <div class="carousel-caption">                                    
-                                            <span class="caption-title">First slide label</span><br>
-                                            <!--<span class="caption-subtitle">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</span>-->
+                                            <span class="caption-title">Lagoa da Confusão</span><br>
+                                            <!--<span class="caption-subtitle">Subtitulo subtilo subtitulo subtitulo subtitulo subtitulo</span>-->
                                         </div>
                                     </a>  
                                 </div>      
@@ -436,16 +512,16 @@
             </div>
         </div>             
 
-        <footer class="footer" style="background: #">            
+        <footer class="footer" style="">            
             <div class="row " style="">
                 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                     <a href="" class="">
-                        <img class="img-responsive logo-footer" src="img/logo-side-branco.png" alt="logotipo-lagoa" width="280" height="160">
+                        <img class="img-responsive logo-footer" src="img/logos/logo-side-branco.png" alt="logotipo-lagoa" width="280" height="160">
                     </a>
                 </div> 
                 <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 col-links">
                     <h4><b>LINK</b></h4>
-                    <div style="height: 1px; width: 150px; background: white; margin-left: -10px; margin-bottom: 10px;"></div>  
+                    <!--<div style="height: 1px; width: 150px; background: white; margin-left: -10px; margin-bottom: 10px;"></div>  -->
                     <ul class="list-unstyled">
                         <li><a href="" class=""><img src="img/right-chevron.png" alt="">Link</a></li>
                         <li><a href="" class=""><img src="img/right-chevron.png" alt="">Link</a></li>
@@ -456,7 +532,7 @@
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 col-links" >
                     <h4><b>LINK</b></h4>
-                    <div style="height: 1px; width: 150px; background: white; margin-left: -10px; margin-bottom: 10px;"></div>
+                    <!--<div style="height: 1px; width: 150px; background: white; margin-left: -10px; margin-bottom: 10px;"></div>-->
                     <ul class="list-unstyled">
                         <li><a href="" class=""><img src="img/right-chevron.png" alt="">Link</a></li>
                         <li><a href="" class=""><img src="img/right-chevron.png" alt="">Link</a></li>
@@ -467,7 +543,7 @@
                 </div>  
                 <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 col-links" >
                     <h4><b>LINK</b></h4>
-                    <div style="height: 1px; width: 150px; background: white; margin-left: -10px; margin-bottom: 10px;"></div>
+                    <!--<div style="height: 1px; width: 150px; background: white; margin-left: -10px; margin-bottom: 10px;"></div>-->
                     <ul class="list-unstyled">
                         <li><a href="" class=""><img src="img/right-chevron.png" alt="">Link</a></li>
                         <li><a href="" class=""><img src="img/right-chevron.png" alt="">Link</a></li>
