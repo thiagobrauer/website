@@ -13,6 +13,8 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap-submenu.css">
+        
     </head>
     <body style=""> 
         <header class="header">            
@@ -26,7 +28,7 @@
                 <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 col-header header-info">
                     <!--<h4>ATENDIMENTO</h4>-->
                     <p class="header-fone">(63) 3364-1623</p>
-                    <p><b>Atendimento: 07h às 13h Horas, Segunda a Sexta</b></p>
+                    <p><b>Atendimento: 07h às 13h, de Segunda a Sexta</b></p>
                     <p>Prefeitura Municipal de Lagoa da Confusão</p>
                     <p>Rua Firmino Lacerda, 257 - Quadra 53, Lote 07, Centro</p>
                     <p>Lagoa da Confusão, Tocantins</p>
@@ -83,37 +85,67 @@
                             <li><a href="#">Prefeito</a></li>
                             <li><a href="#">Vice Prefeito</a></li>
                             <li><a href="#">Agenda</a></li>
+                            <li><a href="#">Diário Oficial</a></li>
+                            <li><a href="#">Editais</a></li>
+                            <li><a href="#">Licitações</a></li>
+                            <li><a href="#">Concursos</a></li>
+                            <li class="dropdown-submenu">
+                                <a class="test" tabindex="-1" href="#">Secretarias<span class=""></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a tabindex="-1" href="#">Educação</a></li>
+                                    <li><a tabindex="-1" href="#">Finanças</a></li>
+                                    <li><a tabindex="-1" href="#">Gabinete</a></li>
+                                    <li><a tabindex="-1" href="#">Infraestrutura</a></li>
+                                    <li><a tabindex="-1" href="#">RH</a></li>
+                                    <li><a tabindex="-1" href="#">Saúde</a></li>
+                                    <li><a tabindex="-1" href="#">Serviço Social</a></li>
+                                </ul>
+                            </li>                            
+                            <li><a href="http://lagoadaconfusao.megasofttransparencia.com.br/transparencia/viagem.xhtml">Transparência</a></li>
                         </ul>
                     </li>
+                    
                     <li class="dropdown menu-item">
                         <a href="#" class="dropdown-toggle menu-item" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                            SECRETARIAS 
+                            NOSSA CIDADE 
                             <span class="glyphicon glyphicon-chevron-down"></span>
                         </a>
                         <ul class="dropdown-menu" style="background: #D9EDF7;">
-                            <li><a href="#">Educação</a></li>
-                            <li><a href="#">Finanças</a></li>
-                            <li><a href="#">Gabinete</a></li>
-                            <li><a href="#">Infraestrutura</a></li>
-                            <li><a href="#">RH</a></li>
-                            <li><a href="#">Saúde</a></li>
-                            <li><a href="#">Serviço Social</a></li>
+                            <li><a href="#">A Cidade</a></li>
+                            <li><a href="#">História</a></li>
+                            <li><a href="#">População</a></li>
+                            <li><a href="#">Turismo</a></li>
+                            <li><a href="#">Agronegócio</a></li>
+                            <li><a href="#">Geografia</a></li>
+                            <li><a href="#">Visite Lagoa da Confusão</a></li>                            
                         </ul>
                     </li>
+                    
                     <li class="dropdown menu-item">
                         <a href="#" class="dropdown-toggle menu-item" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                             SERVIÇOS 
                             <span class="glyphicon glyphicon-chevron-down"></span>
                         </a>
                         <ul class="dropdown-menu" style="background: #D9EDF7;">
-                            <li><a href="#">Nota Fiscal Eletrônica</a></li>
-                            <li><a href="#">Transparência</a></li>
+                            <li><a href="#">Alvarás</a></li>
+                            <li><a href="https://lagoadaconfusao.megasoftarrecadanet.com.br/lagoadaconfusao/nfe-municipal/login.jsf">Nota Fiscal Eletrônica</a></li>
+                            <li><a href="#">IPTU</a></li>
                             <li><a href="#">Outros serviços</a></li>
                         </ul>
                     </li>
-                    <!--<li class="menu-item"><a href="#contact" >PROJETOS E AÇÕES</a></li>-->
                     <li class="menu-item"><a href="#contact" >NOTÍCIAS</a></li>
-                    <li class="menu-item"><a href="#contact" >IMPRENSA</a></li>
+                    <li class="dropdown menu-item">
+                        <a href="#" class="dropdown-toggle menu-item" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            IMPRENSA 
+                            <span class="glyphicon glyphicon-chevron-down"></span>
+                        </a>
+                        <ul class="dropdown-menu" style="background: #D9EDF7;">
+                            <li><a href="#">Assessoria</a></li>
+                            <li><a href="#">Galeria Multimídia</a></li>
+                            <li><a href="#">Downloads</a></li>
+                            <li><a href="#">Redes Sociais</a></li>
+                        </ul>
+                    </li>
                     <li class="dropdown menu-item">
                         <a href="#" class="dropdown-toggle menu-item" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                             FALE CONOSCO 
@@ -123,8 +155,7 @@
                             <li><a href="#">Ouvidoria</a></li>
                             <li><a href="#">Contato</a></li>
                         </ul>
-                    </li>
-                    
+                    </li>                    
                 </ul>
                 </div>           
         </nav>
@@ -135,9 +166,6 @@
                 <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                 <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                 <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="5"></li>
             </ol>
 
             <!-- Wrapper for slides -->
@@ -148,7 +176,7 @@
                     <!--</div>-->
                     <div class="carousel-caption">
                         <p class="slide-caption-title">Lagoa da Confusão</p>
-                        <p class="slide-caption-subtitle">Subtitulo subtilo subtitulo subtitulo subtitulo subtitulo</p>
+                        <p class="slide-caption-subtitle">Subtitulo subtitulo subtitulo subtitulo subtitulo subtitulo</p>
                     </div>
                 </div>
                 <div class="item ">
@@ -158,7 +186,7 @@
                     
                     <div class="carousel-caption">
                         <p class="slide-caption-title">Lagoa da Confusão</p>
-                        <p class="slide-caption-subtitle">Subtitulo subtilo subtitulo subtitulo subtitulo subtitulo</p>
+                        <p class="slide-caption-subtitle">Subtitulo subtitulo subtitulo subtitulo subtitulo subtitulo</p>
                     </div>
                 </div>
                 <div class="item ">
@@ -168,10 +196,9 @@
                     
                     <div class="carousel-caption">
                         <p class="slide-caption-title">Lagoa da Confusão</p>
-                        <p class="slide-caption-subtitle">Subtitulo subtilo subtitulo subtitulo subtitulo subtitulo</p>
+                        <p class="slide-caption-subtitle">Subtitulo subtitulo subtitulo subtitulo subtitulo subtitulo</p>
                     </div>
-                </div>
-                
+                </div>                
             </div>
 
             <!-- Controls -->
@@ -189,11 +216,9 @@
         <!--<iframe allowtransparency="true" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" src="http://www.cptec.inpe.br/widget/widget.php?p=2883&w=h&c=748ccc&f=ffffff" height="200px" width="215px"></iframe><noscript>Previs&atilde;o de <a href="http://www.cptec.inpe.br/cidades/tempo/2883">Lagoa da Confusão/TO</a> oferecido por <a href="http://www.cptec.inpe.br">CPTEC/INPE</a></noscript> Widget Previs&atilde;o de Tempo CPTEC/INPE -->
         
         
-        
-        
         <div class="container page-content-wrapper" >
             <div class="row">                
-                <div class="col-lg-10 col-section section-noticia">                    
+                <div class="col-lg-8 col-section section-noticia">                    
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section-title">                        
                         <p class="">
                             <img src="img/right-chevron.png" alt="" width="15px" height="15px" style="margin-right: 2px; margin-bottom: 2px;">
@@ -261,63 +286,70 @@
                             </div>
                         </div>                    
                                                                     
-                    </div>                    
+                    </div>   
+                    <hr />               
                 </div>
-
-                <div class="col-lg-2 col-section"> 
-                    <!--<div class="col-lg-12">
-                        <a href="http://www.accuweather.com/pt/br/lagoa-da-confusao/1800490/current-weather/1800490" class="aw-widget-legal">
-                        TESTE
-                        </a>
-                        <div id="awtd1487862196758" class="aw-widget-36hour"  data-locationkey="1800490" data-unit="c" data-language="pt" data-useip="false" data-uid="awtd1487862196758" data-editlocation="false">
-                        </div>
+                
+                <div class="col-lg-4 col-section col-clima-shortcuts" style=""> 
+                    
+                    <div class="col-lg-12 col-md-6 col-sm-12 col-xs-12 col-widget-clima" style="">
+                        <!--<div id="cont_f1ef76bb04d7e51c38b5f72356aab153" style="margin-bottom: 50px; width: 100%;">
+                            <script type="text/javascript" async src="https://www.tempo.com/wid_loader/f1ef76bb04d7e51c38b5f72356aab153"></script>
+                        </div>-->
+                        <a href="http://www.accuweather.com/pt/br/lagoa-da-confusao/1800490/current-weather/1800490" class="aw-widget-legal"></a>
+                        <div id="awtd1487862196758" class="aw-widget-36hour"  data-locationkey="1800490" data-unit="c" data-language="pt" data-useip="false" data-uid="awtd1487862196758" data-editlocation="false"></div>
                         <script type="text/javascript" src="https://oap.accuweather.com/launch.js"></script>
-
-                    </div>    -->
-
-
-
-                    <a href="http://lagoadaconfusao.megasofttransparencia.com.br/transparencia/viagem.xhtml">
-                        <div class="col-lg-12 col-md-3 col-sm-3 nopadding" >    
-                            <div class="div-shortcut">
-                                <div>
-                                    <i class="fa fa-search fa-3x" aria-hidden="true"></i>
-                                    <p>TRANSPARÊNCIA</p>
-                                </div> 
-                            </div>                                                                                                    
+                    </div>
+                    
+                    <hr /> 
+                    <div class="col-lg-12 col-md-6 col-sm-12 col-xs-12">
+                        <div class="col-lg-6 col-md-6 col-sm-3 nopadding" >   
+                            <a href="http://lagoadaconfusao.megasofttransparencia.com.br/transparencia/viagem.xhtml"> 
+                                <div class="div-shortcut">
+                                    <div>
+                                        <i class="fa fa-search fa-3x" aria-hidden="true"></i>
+                                        <p>TRANSPARÊNCIA</p>
+                                    </div> 
+                                </div>   
+                            </a>                                                                                                 
+                        </div>                   
+                        
+                        <div class="col-lg-6 col-md-6 col-sm-3 nopadding" >    
+                            <a href="">
+                                <div class="div-shortcut">                                
+                                    <div>
+                                        <i class="fa fa-bell fa-3x" aria-hidden="true"></i>
+                                        <p>EDITAIS</p>
+                                    </div>     
+                                </div>   
+                            </a>                                                                                                 
                         </div>
-                    </a>
-                    <a href="">
-                        <div class="col-lg-12 col-md-3 col-sm-3 nopadding" >    
-                            <div class="div-shortcut">
-                                <div>
-                                    <i class="fa fa-bell fa-3x" aria-hidden="true"></i>
-                                    <p>EDITAIS</p>
-                                </div>     
-                            </div>                                                                                                    
+                                            
+                        <div class="col-lg-6 col-md-6 col-sm-3 nopadding" >    
+                            <a href="">
+                                <div class="div-shortcut">
+                                    <div>
+                                        <i class="fa fa-gavel fa-3x" aria-hidden="true"></i>
+                                        <p>LICITAÇÕES</p>
+                                    </div>     
+                                </div>   
+                            </a>                                                                                                 
+                        </div>                    
+                        
+                        <div class="col-lg-6 col-md-6 col-sm-3 nopadding" >   
+                            <a href="https://lagoadaconfusao.megasoftarrecadanet.com.br/lagoadaconfusao/nfe-municipal/login.jsf">                             
+                                <div class="div-shortcut">
+                                    <div >
+                                        <img class="img-responsive" src="img/logos/nfe.png" alt="" width="80px" height="80px" style="margin: 0 auto">
+                                        <!--<i class="fa fa-info fa-3x" aria-hidden="true"></i>-->
+                                        <p style="margin: 5px;">NF-E</p>
+                                    </div>    
+                                </div>   
+                            </a>                                                                                                  
                         </div>
-                    </a>
-                    <a href="">
-                        <div class="col-lg-12 col-md-3 col-sm-3 nopadding" >    
-                            <div class="div-shortcut">
-                                <div>
-                                    <i class="fa fa-gavel fa-3x" aria-hidden="true"></i>
-                                    <p>LICITAÇÕES</p>
-                                </div>     
-                            </div>                                                                                                    
-                        </div>
-                    </a>
-                    <a href="https://lagoadaconfusao.megasoftarrecadanet.com.br/lagoadaconfusao/nfe-municipal/login.jsf">
-                        <div class="col-lg-12 col-md-3 col-sm-3 nopadding" >                                
-                            <div class="div-shortcut">
-                                <div >
-                                    <img class="img-responsive" src="img/logos/nfe.png" alt="" width="80px" height="80px" style="margin: 0 auto">
-                                    <!--<i class="fa fa-info fa-3x" aria-hidden="true"></i>-->
-                                    <p style="margin: 5px;">NF-E</p>
-                                </div>    
-                            </div>                                                                                                    
-                        </div>
-                    </a> 
+                    </div>     
+                                                    
+                    
                 </div>  
             </div>                           
                                                         
@@ -447,7 +479,7 @@
                                 
                                     <div class="carousel-caption">                                    
                                         <span class="caption-title">Lagoa da Confusão</span><br>
-                                        <span class="caption-subtitle">Subtitulo subtilo subtitulo subtitulo subtitulo subtitulo</span>
+                                        <span class="caption-subtitle">Subtitulo subtitulo subtitulo subtitulo subtitulo subtitulo</span>
                                     </div>
                                 </a>   
                             </div>
@@ -463,7 +495,7 @@
                                         </div>                                    
                                         <div class="carousel-caption">                                    
                                             <span class="caption-title">Lagoa da Confusão</span><br>
-                                            <!--<span class="caption-subtitle">Subtitulo subtilo subtitulo subtitulo subtitulo subtitulo</span>-->
+                                            <!--<span class="caption-subtitle">Subtitulo subtitulo subtitulo subtitulo subtitulo subtitulo</span>-->
                                         </div>
                                     </a>  
                                 </div>
@@ -475,7 +507,7 @@
                                     
                                         <div class="carousel-caption">                                    
                                             <span class="caption-title">Lagoa da Confusão</span><br>
-                                            <!--<span class="caption-subtitle">Subtitulo subtilo subtitulo subtitulo subtitulo subtitulo</span>-->
+                                            <!--<span class="caption-subtitle">Subtitulo subtitulo subtitulo subtitulo subtitulo subtitulo</span>-->
                                         </div>
                                     </a>  
                                 </div>        
@@ -489,7 +521,7 @@
                                     
                                         <div class="carousel-caption">                                    
                                             <span class="caption-title">Lagoa da Confusão</span><br>
-                                            <!--<span class="caption-subtitle">Subtitulo subtilo subtitulo subtitulo subtitulo subtitulo</span>-->
+                                            <!--<span class="caption-subtitle">Subtitulo subtitulo subtitulo subtitulo subtitulo subtitulo</span>-->
                                         </div>
                                     </a>  
                                 </div>
@@ -501,7 +533,7 @@
                                     
                                         <div class="carousel-caption">                                    
                                             <span class="caption-title">Lagoa da Confusão</span><br>
-                                            <!--<span class="caption-subtitle">Subtitulo subtilo subtitulo subtitulo subtitulo subtitulo</span>-->
+                                            <!--<span class="caption-subtitle">Subtitulo subtitulo subtitulo subtitulo subtitulo subtitulo</span>-->
                                         </div>
                                     </a>  
                                 </div>      
@@ -514,49 +546,77 @@
 
         <footer class="footer" style="">            
             <div class="row " style="">
-                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
                     <a href="" class="">
                         <img class="img-responsive logo-footer" src="img/logos/logo-side-branco.png" alt="logotipo-lagoa" width="280" height="160">
                     </a>
                 </div> 
-                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 col-links">
-                    <h4><b>LINK</b></h4>
+                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 col-links" style="padding-left: 10px;">
+                    <h4><b>ADMINISTRAÇÃO</b></h4>
                     <!--<div style="height: 1px; width: 150px; background: white; margin-left: -10px; margin-bottom: 10px;"></div>  -->
                     <ul class="list-unstyled">
-                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">Link</a></li>
-                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">Link</a></li>
-                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">Link</a></li>
-                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">Link</a></li>
-                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">Link</a></li>
+                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">Prefeito</a></li>
+                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">Vice Prefeito</a></li>
+                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">Agenda</a></li>
+                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">Diário Oficial</a></li>
+                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">Editais</a></li>
+                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">Licitações</a></li>
+                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">Concursos</a></li>
+                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">Transparência</a></li>
                     </ul>                    
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 col-links" >
-                    <h4><b>LINK</b></h4>
+                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 col-links" style="padding-left: 10px;">
+                    <h4><b>SECRETARIAS</b></h4>
+                    <!--<div style="height: 1px; width: 150px; background: white; margin-left: -10px; margin-bottom: 10px;"></div>  -->
+                    <ul class="list-unstyled">
+                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">Educação</a></li>
+                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">Finanças</a></li>
+                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">Gabinete</a></li>
+                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">Infraestrutura</a></li>
+                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">RH</a></li>
+                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">Saúde</a></li>
+                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">Serviço Social</a></li>
+                    </ul>                    
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 col-links" style="padding-left: 10px;">
+                    <h4><b>SERVIÇOS</b></h4>
                     <!--<div style="height: 1px; width: 150px; background: white; margin-left: -10px; margin-bottom: 10px;"></div>-->
                     <ul class="list-unstyled">
-                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">Link</a></li>
-                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">Link</a></li>
-                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">Link</a></li>
-                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">Link</a></li>
-                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">Link</a></li>
+                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">Alvarás</a></li>
+                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">NF-e</a></li>
+                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">IPTU</a></li>
+                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">Outros serviços</a></li>
                     </ul>                          
                 </div>  
-                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 col-links" >
-                    <h4><b>LINK</b></h4>
+                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 col-links" style="padding-left: 10px;">
+                    <h4><b>IMPRENSA</b></h4>
                     <!--<div style="height: 1px; width: 150px; background: white; margin-left: -10px; margin-bottom: 10px;"></div>-->
                     <ul class="list-unstyled">
-                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">Link</a></li>
-                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">Link</a></li>
-                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">Link</a></li>
-                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">Link</a></li>
-                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">Link</a></li>
+                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">Assessoria</a></li>
+                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">Galeria Multimídia</a></li>
+                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">Downloads</a></li>
+                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">Redes Sociais</a></li>
                     </ul>                          
-                </div>                 
+                </div>      
+                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 col-links" style="padding-left: 10px;">
+                    <h4><b>NOSSA CIDADE</b></h4>
+                    <!--<div style="height: 1px; width: 150px; background: white; margin-left: -10px; margin-bottom: 10px;"></div>-->
+                    <ul class="list-unstyled">
+                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">A Cidade</a></li>
+                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">História</a></li>
+                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">População</a></li>
+                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">Turismo</a></li>
+                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">Agronegócio</a></li>
+                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">Geografia</a></li>
+                        <li><a href="" class=""><img src="img/right-chevron.png" alt="">Visite Lagoa da Confusão</a></li>
+                    </ul>                          
+                </div>             
             </div>              
         </footer>
        
     <script type='text/javascript' src="js/script.min.js"></script>     
     <script type='text/javascript' src="js/custom.js"></script>      
+    <script type='text/javascript' src="js/bootstrap-submenu.js" defer></script>
     </body>
 </html>
 

@@ -68,21 +68,16 @@ header .fa:hover{
 }
 
 
-
 /*CENTER NAVBAR*/
-.navbar .navbar-nav {
-    
+.navbar .navbar-nav {    
     display: inline-block;
     float: none;
-    vertical-align: top;
-
-    
+    vertical-align: top;    
 }
 
 .navbar .navbar-collapse {
     text-align: center;
 }
-/**/
 
 .navbar{
     margin: 0;
@@ -125,13 +120,23 @@ header .fa:hover{
   /*text-decoration: none;*/
 }
 
-
-
 .menu-item a{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     letter-spacing: .05em;
     color: white;   
+}
+
+.dropdown-submenu {
+    position: relative;
+    /* */
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+    background: #D9EDF7;
 }
 
 /*CAROUSEL*/
@@ -254,6 +259,10 @@ header .fa:hover{
 }
 
 
+.col-widget-clima{
+    margin-bottom: 20px; 
+}
+
 .div-shortcut{
     border-radius: 2px;
     border: 1px solid #BCE8F1;
@@ -266,7 +275,7 @@ header .fa:hover{
     letter-spacing: .05em;
     text-align: center;
     font-weight: bolder;
-    font-size: 18px;
+    font-size: 16px;
     background: #D9EDF7; 
     color: #1E6B91;
     /*color: #144962;*/
@@ -511,6 +520,7 @@ footer ul li a img{
 }
 
 /*MEDIA QUERIES*/
+
 /*LG*/
 @media screen and (min-width: 1200px) {
     .logo-header-side{
@@ -520,6 +530,17 @@ footer ul li a img{
     .logo-header-bottom{
         display: none;
     }
+
+    .div-shortcut{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .col-widget-clima{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    
     
 }
 
@@ -538,12 +559,10 @@ footer ul li a img{
         margin-top: 20px;
     }
 
-    .col-shortcuts{
-        margin-top: 20px;
-    }
     .div-shortcut{
         margin-left: 10px;
         margin-right: 10px;
+        height: 170px;
     }
     .logo-footer{
         margin: 0 auto;
@@ -552,7 +571,6 @@ footer ul li a img{
     .logo-header{
         margin-top: 20px;
     }
-
     
 }
 
@@ -576,10 +594,12 @@ footer ul li a img{
     .menu-item{
         margin-left: 0px;
         margin-right: 0px; 
+        /*font-size: 12px;*/
+
     }
 
     .col-shortcuts{
-        margin-top: 20px;
+        margin-top: ;
     }
     .div-shortcut{
         margin-left: 10px;
