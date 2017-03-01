@@ -28,7 +28,7 @@
                 <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 col-header header-info">
                     <!--<h4>ATENDIMENTO</h4>-->
                     <p class="header-fone">(63) 3364-1623</p>
-                    <p><b>Atendimento: 07h às 13h, de Segunda a Sexta</b></p>
+                    <p><b>Atendimento: de Segunda a Sexta, das 08:00 às 12:00 e das 14:00 às 18:00</b></p>
                     <p>Prefeitura Municipal de Lagoa da Confusão</p>
                     <p>Rua Firmino Lacerda, 257 - Quadra 53, Lote 07, Centro</p>
                     <p>Lagoa da Confusão, Tocantins</p>
