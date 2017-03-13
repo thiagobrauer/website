@@ -88,7 +88,10 @@
 						<br />
 						<br />
 						<a style = 'font-size:16px' href = 'doc/ato_044_2017.pdf' target = '_blank'><span class = 'glyphicon glyphicon-download-alt'></span> Ato nº 044/2017 - Rosenir Souza Cardoso</a>
-						
+						<br />
+						<br />
+						<a style = 'font-size:16px' href = 'doc/ato_045_2017.pdf' target = '_blank'><span class = 'glyphicon glyphicon-download-alt'></span> Ato nº 045/2017 - Vinicius Rodrigues de Souza Aguiar</a>
+						<br />
 					</div>
 				</div>
 		</div>

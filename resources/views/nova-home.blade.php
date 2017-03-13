@@ -228,7 +228,7 @@
                     <div class="col-lg-12 col-md-12 col-sm-12">                        
                         <div class="row div-noticia">
                             <div class="col-lg-3 col-md-3 col-sm-3 col-img-noticia">
-                                <img src="img/noticias/noticia1.jpg" class="img-responsive" alt="Responsive image">
+                                <img src="img/noticias/noticia1.jpg" class="img-responsive" alt="Responsive image" >
                             </div>
                             <div class="col-lg-9 col-md-9 col-sm-9 div-noticia-content">
                                 <a href="" class="header-noticia">Gostaria de enfatizar que a consolidação das estruturas 
@@ -407,7 +407,7 @@
                                     Ato nº 044/2017
                                 </p>
                                 <p class="list-group-item-text publicacao-subtitle">Rosenir Souza Cardoso</p>
-                            </a>                                                  
+                            </a>                                             
                         </div>    
                     </div>                       
                 </div>
